@@ -12,7 +12,7 @@ class WikiSpider(scrapy.Spider):
     start_urls = [
         "https://es.wikipedia.org/wiki/Wikipedia:Portada"
     ]
-    counter = 0
+
 
     def parse(self, response):
         urls = []
